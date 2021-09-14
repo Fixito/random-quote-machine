@@ -41,7 +41,12 @@ const QuoteBox = ({ color, colors, getRandomColor }) => {
           </blockquote>
         </div>
         <div className="card-footer border-top-0 d-flex justify-content-between align-items-center">
-          <a href="https://twitter.com/home" id="tweet-quote">
+          <a
+            href="twitter.com/intent/tweet"
+            target="_blank"
+            rel="noopener"
+            id="tweet-quote"
+          >
             <i className={`fab fa-3x fa-twitter-square text-${color}`}></i>
           </a>
           <button
