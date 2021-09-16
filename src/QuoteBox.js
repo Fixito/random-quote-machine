@@ -40,7 +40,10 @@ const QuoteBox = ({ color, colors, getRandomColor }) => {
             </footer>
           </blockquote>
         </div>
-        <div className="card-footer border-top-0 d-flex justify-content-between align-items-center">
+        <div
+          className="card-footer border-top-0 d-flex justify-content-between align-items-center"
+          style={{ backgroundColor: "#fff" }}
+        >
           <a
             href={`https://twitter.com/intent/tweet?hashtags=quotes&text="${content}" -${author}.`}
             target="_blank"
