@@ -12,7 +12,7 @@
 
 ## Overview
 
-![screenshot](%PUBLIC_URL%/overview.png)
+![screenshot](/overview.png)
 
 ## Getting Started with Create React App
 
